@@ -1,0 +1,39 @@
+[2018-05-08 11:11:04] [INFO] 启动chrome浏览器
+[2018-05-08 11:11:10] [INFO] 打开网址：http://127.0.0.1:8086/discuz/
+[2018-05-08 11:11:10] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 11:11:10] [INFO] 找到相对元素： id: ls_username
+[2018-05-08 11:11:10] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 11:11:10] [INFO] 清空元素内容 id: ls_username
+[2018-05-08 11:11:11] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 11:11:11] [INFO] 在元素 id: ls_username成功输入内容:admin
+[2018-05-08 11:11:11] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 11:11:11] [INFO] 找到相对元素： id: ls_password
+[2018-05-08 11:11:11] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 11:11:11] [INFO] 清空元素内容 id: ls_password
+[2018-05-08 11:11:12] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 11:11:12] [INFO] 在元素 id: ls_password成功输入内容:password
+[2018-05-08 11:11:12] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:11:12] [INFO] 找到相对元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:11:13] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:11:13] [INFO] 对元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button做点击操作
+[2018-05-08 11:11:16] [INFO] 成功获取元素的定位值 link text: 默认版块
+[2018-05-08 11:11:16] [INFO] 找到相对元素： link text: 默认版块
+[2018-05-08 11:11:17] [INFO] 成功获取元素的定位值 link text: 默认版块
+[2018-05-08 11:11:17] [INFO] 对元素： link text: 默认版块做点击操作
+[2018-05-08 11:11:20] [INFO] 成功获取元素的定位值 id: subject
+[2018-05-08 11:11:20] [INFO] 找到相对元素： id: subject
+[2018-05-08 11:11:20] [INFO] 成功获取元素的定位值 id: subject
+[2018-05-08 11:11:20] [INFO] 清空元素内容 id: subject
+[2018-05-08 11:11:20] [INFO] 成功获取元素的定位值 id: subject
+[2018-05-08 11:11:20] [INFO] 在元素 id: subject成功输入内容:abc
+[2018-05-08 11:11:21] [INFO] 成功获取元素的定位值 id: fastpostmessage
+[2018-05-08 11:11:21] [INFO] 找到相对元素： id: fastpostmessage
+[2018-05-08 11:11:21] [INFO] 成功获取元素的定位值 id: fastpostmessage
+[2018-05-08 11:11:21] [INFO] 清空元素内容 id: fastpostmessage
+[2018-05-08 11:11:21] [INFO] 成功获取元素的定位值 id: fastpostmessage
+[2018-05-08 11:11:21] [INFO] 在元素 id: fastpostmessage成功输入内容:abc
+[2018-05-08 11:11:21] [INFO] 成功获取元素的定位值 id: fastpostsubmit
+[2018-05-08 11:11:21] [INFO] 找到相对元素： id: fastpostsubmit
+[2018-05-08 11:11:22] [INFO] 成功获取元素的定位值 id: fastpostsubmit
+[2018-05-08 11:11:22] [INFO] 对元素： id: fastpostsubmit做点击操作
+[2018-05-08 11:11:26] [INFO] 成功退出浏览器

@@ -1,0 +1,23 @@
+[2018-05-08 11:13:03] [INFO] 启动chrome浏览器
+[2018-05-08 11:13:06] [INFO] 打开网址：http://127.0.0.1:8086/discuz/
+[2018-05-08 11:13:07] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 11:13:07] [INFO] 找到相对元素： id: ls_username
+[2018-05-08 11:13:07] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 11:13:07] [INFO] 清空元素内容 id: ls_username
+[2018-05-08 11:13:07] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 11:13:07] [INFO] 在元素 id: ls_username成功输入内容:admin
+[2018-05-08 11:13:07] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 11:13:07] [INFO] 找到相对元素： id: ls_password
+[2018-05-08 11:13:08] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 11:13:08] [INFO] 清空元素内容 id: ls_password
+[2018-05-08 11:13:08] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 11:13:08] [INFO] 在元素 id: ls_password成功输入内容:password
+[2018-05-08 11:13:08] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:13:08] [INFO] 找到相对元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:13:09] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 11:13:09] [INFO] 对元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button做点击操作
+[2018-05-08 11:13:09] [INFO] 成功获取元素的定位值 link text: 默认版块
+[2018-05-08 11:13:09] [INFO] 找到相对元素： link text: 默认版块
+[2018-05-08 11:13:11] [INFO] 成功获取元素的定位值 link text: 默认版块
+[2018-05-08 11:13:11] [INFO] 对元素： link text: 默认版块做点击操作
+[2018-05-08 11:13:18] [INFO] 成功退出浏览器

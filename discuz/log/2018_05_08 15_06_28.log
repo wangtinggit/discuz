@@ -1,0 +1,32 @@
+[2018-05-08 15:06:48] [INFO] 启动chrome浏览器
+[2018-05-08 15:06:55] [INFO] 打开网址：http://127.0.0.1:8086/discuz/
+[2018-05-08 15:06:56] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 15:06:56] [INFO] 找到相对元素： id: ls_username
+[2018-05-08 15:06:56] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 15:06:56] [INFO] 清空元素内容 id: ls_username
+[2018-05-08 15:06:56] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-08 15:06:56] [INFO] 在元素 id: ls_username成功输入内容:admin
+[2018-05-08 15:06:56] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 15:06:56] [INFO] 找到相对元素： id: ls_password
+[2018-05-08 15:06:57] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 15:06:57] [INFO] 清空元素内容 id: ls_password
+[2018-05-08 15:06:57] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-08 15:06:57] [INFO] 在元素 id: ls_password成功输入内容:password
+[2018-05-08 15:06:57] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 15:06:57] [INFO] 找到相对元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 15:06:58] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-08 15:06:58] [INFO] 对元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button做点击操作
+[2018-05-08 15:07:01] [INFO] 成功获取元素的定位值 link text: 管理中心
+[2018-05-08 15:07:01] [INFO] 找到相对元素： link text: 管理中心
+[2018-05-08 15:07:02] [INFO] 成功获取元素的定位值 link text: 管理中心
+[2018-05-08 15:07:02] [INFO] 对元素： link text: 管理中心做点击操作
+[2018-05-08 15:07:07] [INFO] 成功获取元素的定位值 xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input
+[2018-05-08 15:07:07] [INFO] 找到相对元素： xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input
+[2018-05-08 15:07:07] [INFO] 成功获取元素的定位值 xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input
+[2018-05-08 15:07:07] [INFO] 清空元素内容 xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input
+[2018-05-08 15:07:08] [INFO] 成功获取元素的定位值 xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input
+[2018-05-08 15:07:08] [INFO] 在元素 xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input成功输入内容:password
+[2018-05-08 15:07:08] [INFO] 成功获取元素的定位值 name: submit
+[2018-05-08 15:07:08] [INFO] 找到相对元素： name: submit
+[2018-05-08 15:07:26] [INFO] 成功获取元素的定位值 name: submit
+[2018-05-08 15:07:26] [INFO] 对元素： name: submit做点击操作
