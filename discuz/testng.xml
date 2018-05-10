@@ -2,7 +2,9 @@
 <suite name="DiscuzWhiteTest">
     <test name = "froum">
         <classes>
+		
             <class name="testcase.LoginPage" />
+			<!--
             <class name="testcase.LoginSubmit" />
             <class name="testcase.LoginReply" />
             <class name="testcase.LoginSubRep" />
@@ -11,6 +13,7 @@
             <class name="testcase.CommonSubmit" />
             <class name="testcase.SearchPlate" />
             <class name="testcase.SubmitTopic" />
+			-->
         </classes>
     </test>
 
