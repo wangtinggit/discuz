@@ -1,0 +1,37 @@
+[2018-05-09 20:43:28] [INFO] 启动chrome浏览器
+[2018-05-09 20:43:31] [INFO] 打开网址：http://127.0.0.1:8086/discuz/
+[2018-05-09 20:43:31] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-09 20:43:31] [INFO] 找到相对元素： id: ls_username
+[2018-05-09 20:43:31] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-09 20:43:31] [INFO] 清空元素内容 id: ls_username
+[2018-05-09 20:43:31] [INFO] 成功获取元素的定位值 id: ls_username
+[2018-05-09 20:43:31] [INFO] 在元素 id: ls_username成功输入内容:admin
+[2018-05-09 20:43:31] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-09 20:43:31] [INFO] 找到相对元素： id: ls_password
+[2018-05-09 20:43:31] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-09 20:43:31] [INFO] 清空元素内容 id: ls_password
+[2018-05-09 20:43:32] [INFO] 成功获取元素的定位值 id: ls_password
+[2018-05-09 20:43:32] [INFO] 在元素 id: ls_password成功输入内容:password
+[2018-05-09 20:43:32] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-09 20:43:32] [INFO] 找到相对元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-09 20:43:32] [INFO] 成功获取元素的定位值 xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button
+[2018-05-09 20:43:32] [INFO] 对元素： xpath: //*[@id="lsform"]/div/div/table/tbody/tr[2]/td[3]/button做点击操作
+[2018-05-09 20:43:35] [INFO] 找到了元素 [By.xpath: //*[@id="um"]/p[1]/a[6]]
+[2018-05-09 20:43:35] [INFO] 成功获取元素的定位值 xpath: //*[@id="um"]/p[1]/a[6]
+[2018-05-09 20:43:35] [INFO] 找到相对元素： xpath: //*[@id="um"]/p[1]/a[6]
+[2018-05-09 20:43:37] [INFO] 成功获取元素的定位值 xpath: //*[@id="um"]/p[1]/a[6]
+[2018-05-09 20:43:37] [INFO] 对元素： xpath: //*[@id="um"]/p[1]/a[6]做点击操作
+[2018-05-09 20:43:38] [INFO] 获得当前句柄为：CDwindow-7B2B365BBA69093703596591A99C76AC
+[2018-05-09 20:43:39] [INFO] 找到了元素 [By.xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input]
+[2018-05-09 20:43:39] [INFO] 成功获取元素的定位值 xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input
+[2018-05-09 20:43:39] [INFO] 找到相对元素： xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input
+[2018-05-09 20:43:39] [INFO] 成功获取元素的定位值 xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input
+[2018-05-09 20:43:39] [INFO] 清空元素内容 xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input
+[2018-05-09 20:43:40] [INFO] 成功获取元素的定位值 xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input
+[2018-05-09 20:43:40] [INFO] 在元素 xpath: /html/body/table[1]/tbody/tr/td[2]/form/p[4]/input成功输入内容:password
+[2018-05-09 20:43:40] [INFO] 找到了元素 [By.name: submit]
+[2018-05-09 20:43:40] [INFO] 成功获取元素的定位值 name: submit
+[2018-05-09 20:43:40] [INFO] 找到相对元素： name: submit
+[2018-05-09 20:44:07] [INFO] 成功获取元素的定位值 name: submit
+[2018-05-09 20:44:07] [INFO] 对元素： name: submit做点击操作
+[2018-05-09 20:44:07] [INFO] 预期title是：Discuz! Board 管理中心,但实际title是：Discuz! Board 管理中心 - 首页

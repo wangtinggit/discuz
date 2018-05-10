@@ -11,7 +11,9 @@ public class LoginPage extends BasicTestCase {
     @Test
     public void login(){
         HelperLoginPage.login(seleniumUtil,"admin","password");
+        HelperLoginPage.logout(seleniumUtil);
     }
+
 
 
 

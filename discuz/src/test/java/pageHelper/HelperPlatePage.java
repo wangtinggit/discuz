@@ -14,42 +14,46 @@ public class HelperPlatePage {
     }
     /*点击新板块*/
     public static void clickNewPlate(SeleniumUtil seleniumUtil){
-        seleniumUtil.click(PagePlate.NEW_CLICK_PLATE);
+        seleniumUtil.click(PagePlate.NEW_LINK_PLATE);
     }
     /*输入发帖标题*/
     public  static void inputPostTitle(SeleniumUtil seleniumUtil,String postTitle){
-        seleniumUtil.sendKeys(PagePlate.DEFAULT_POST_TITLE,postTitle);
+        seleniumUtil.waitForElementLoad(PagePlate.PUBLISH_INPUT_TITLE);
+        seleniumUtil.sendKeys(PagePlate.PUBLISH_INPUT_TITLE,postTitle);
     }
     /*输入发帖内容*/
     public  static void inputPostContent(SeleniumUtil seleniumUtil,String postContent){
-        seleniumUtil.sendKeys(PagePlate.DEFAULT_POST_CONTENT,postContent);
+        seleniumUtil.waitForElementLoad(PagePlate.PUBLISH_INPUT_CONTENT);
+        seleniumUtil.sendKeys(PagePlate.PUBLISH_INPUT_CONTENT,postContent);
     }
     /*点击发表帖子*/
     public  static void clickSubmitPost(SeleniumUtil seleniumUtil){
-        seleniumUtil.click(PagePlate.DEFAULT_CLICK_POST);
+        seleniumUtil.waitForElementLoad(PagePlate.PUBLISH_CLICK_POST);
+        seleniumUtil.click(PagePlate.PUBLISH_CLICK_POST);
     }
     /*重构发帖方法*/
-    public static void submit(SeleniumUtil seleniumUtil,String postTitle,String postContent){
+    public static void publishPost(SeleniumUtil seleniumUtil,String postTitle,String postContent) {
         inputPostTitle(seleniumUtil,postTitle);
         inputPostContent(seleniumUtil,postContent);
         clickSubmitPost(seleniumUtil);
     }
-    /*选择一个帖子*/
+    /*点击一个帖子*/
     public static void choosePost(SeleniumUtil seleniumUtil){
-        seleniumUtil.click(PagePlate.DEFAULT_CHOOSE_POST);
+        seleniumUtil.click(PagePlate.REPLY_LINK_POST);
     }
     /*输入回帖内容*/
     public static void inpuRreplyPost(SeleniumUtil seleniumUtil,String reply){
-        seleniumUtil.sendKeys(PagePlate.DEFAULT_REPLY_POST,reply);
+        seleniumUtil.waitForElementLoad(PagePlate.REPLY_INPUT_CONTENT);
+        seleniumUtil.sendKeys(PagePlate.REPLY_INPUT_CONTENT,reply);
     }
     /*点击回复*/
     public static void clickReplyPost(SeleniumUtil seleniumUtil){
-        seleniumUtil.click(PagePlate.DEFAULT_CLICK_REPLY);
+        seleniumUtil.waitForElementLoad(PagePlate.REPLY_CLICK_POST);
+        seleniumUtil.click(PagePlate.REPLY_CLICK_POST);
     }
     /*重构回帖方法*/
     public static void replyPost(SeleniumUtil seleniumUtil,String reply){
-        choosePost(seleniumUtil);
-        inpuRreplyPost(seleniumUtil,reply);
+       inpuRreplyPost(seleniumUtil,reply);
         clickReplyPost(seleniumUtil);
     }
     /*点击删除帖子*/

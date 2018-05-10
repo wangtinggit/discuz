@@ -12,11 +12,11 @@ public class ManagerAddPlate extends BasicTestCase {
     @Test
     public void addNewPlate() throws InterruptedException {
         HelperLoginPage.login(seleniumUtil,"admin","password");
-        Thread.sleep(2000);
         HelperManagerLoginPage.clickManagerPlate(seleniumUtil);
-        Thread.sleep(2000);
         HelperManagerLoginPage.managerLogin(seleniumUtil,"password");
-        Thread.sleep(2000);
+        seleniumUtil.assertPage("Discuz! Board 管理中心 - 首页");
         HelperAddPlatePage.addPlate(seleniumUtil);
+        HelperManagerLoginPage.maglogout(seleniumUtil);
+        HelperLoginPage.logout(seleniumUtil);
     }
 }

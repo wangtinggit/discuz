@@ -11,10 +11,10 @@ import pageHelper.HelperPlatePage;
 public class CommonSubmit extends BasicTestCase {
     /*普通用户登录，发帖，回帖*/
     @Test
-    public void login(){
+    public void login() throws InterruptedException {
         HelperLoginPage.login(seleniumUtil,"wtt","123456");
         HelperPlatePage.clickNewPlate(seleniumUtil);
-        HelperPlatePage.submit(seleniumUtil,"付款了吗V","时空女神");
+        HelperPlatePage.publishPost(seleniumUtil,"付款了吗V","时空女神");
         HelperPlatePage.replyPost(seleniumUtil,"四大皆空烦恼");
     }
 }

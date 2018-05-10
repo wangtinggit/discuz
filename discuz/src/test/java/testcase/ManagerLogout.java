@@ -10,7 +10,7 @@ public class ManagerLogout extends BasicTestCase {
     /*管理员退出登录*/
     @Test
     public void logout(){
-        HelperManagerLoginPage.logout(seleniumUtil);
+        HelperManagerLoginPage.maglogout(seleniumUtil);
     }
 
 }

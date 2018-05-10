@@ -165,23 +165,28 @@ public class SeleniumUtil {
         }
         logger.info("找到了元素 [" + by + "]");
     }
+    /**设置显示等待元素,默认10秒*/
+    public void waitForElementLoad(By by){
+        waitForElementLoad(by, 10);
+    }
 
-    /*切换窗口*/
+    /*切换窗口handle*/
     public void switchToWindow(){
 //        先获取当前窗口的句柄，
         String current_handle = driver.getWindowHandle();
 //        打开新窗口后获取所有窗口的句柄，
         Set<String> all_handles = driver.getWindowHandles();
 //        通过循环判断是不是当前的窗口句柄，
-        Iterator<String> it = all_handles.iterator();
-        while(it.hasNext()){
-            if(it.next() == current_handle){
-                continue;
+        for (String handle:all_handles  ) {
+            if(!(current_handle.equals(handle))){
+                driver.switchTo().window(handle);
+                logger.info("获得当前句柄为："+handle);
             }
-//          跳入新窗口
-            WebDriver new_driver = driver.switchTo().window(it.next());
         }
-
+    }
+    /*切换窗口iframe*/
+    public void iframe(String id){
+        driver.switchTo().frame(id);
     }
 
 }

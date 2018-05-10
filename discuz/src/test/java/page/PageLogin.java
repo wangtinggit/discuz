@@ -8,12 +8,12 @@ import org.openqa.selenium.By;
 public class PageLogin {
 
     /*输入用户名*/
-    public static final By LOGIN_LINK_USERNAME = By.id("ls_username");
+    public static final By LOGIN_INPUT_USERNAME = By.id("ls_username");
     /*输入密码*/
-    public static final By LOGIN_LINK_PASSWORD = By.id("ls_password");
+    public static final By LOGIN_INPUT_PASSWORD = By.id("ls_password");
     /*点击登录*/
-    public static final By LOGIN_LINK_CLICK = By.xpath("//*[@id=\"lsform\"]/div/div/table/tbody/tr[2]/td[3]/button");
+    public static final By LOGIN_CLICK_LOGIN= By.xpath("//*[@id=\"lsform\"]/div/div/table/tbody/tr[2]/td[3]/button");
     /*退出登录*/
-    public static final By LOGOUT_LINK_LOGIN = By.linkText("退出");
+    public static final By LOGIN_CLICK_LOGOUT= By.xpath("//*[@id=\"frameuinfo\"]/p[1]/a");
 
 }

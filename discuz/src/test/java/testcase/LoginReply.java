@@ -13,9 +13,9 @@ public class LoginReply extends  BasicTestCase {
     @Test
     public void replyPost() throws InterruptedException {
         HelperLoginPage.login(seleniumUtil,"admin","password");
-        Thread.sleep(2000);
         HelperPlatePage.clickPlate(seleniumUtil);
-        Thread.sleep(2000);
+        HelperPlatePage.choosePost(seleniumUtil);
         HelperPlatePage.replyPost(seleniumUtil,"jknvfksn");
+        HelperLoginPage.logout(seleniumUtil);
     }
 }

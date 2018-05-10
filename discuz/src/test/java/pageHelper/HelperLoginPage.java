@@ -11,15 +11,15 @@ public class HelperLoginPage {
 
     /*输入用户名*/
     public static void inputUserName(SeleniumUtil seleniumUtil,String username){
-        seleniumUtil.sendKeys(PageLogin.LOGIN_LINK_USERNAME,username);
+        seleniumUtil.sendKeys(PageLogin.LOGIN_INPUT_USERNAME,username);
     }
     /*输入密码*/
     public static void inputPassword(SeleniumUtil seleniumUtil,String password){
-        seleniumUtil.sendKeys(PageLogin.LOGIN_LINK_PASSWORD,password);
+        seleniumUtil.sendKeys(PageLogin.LOGIN_INPUT_PASSWORD,password);
     }
     /*点击登录按钮*/
     public static void clickButton(SeleniumUtil seleniumUtil){
-        seleniumUtil.click(PageLogin.LOGIN_LINK_CLICK);
+        seleniumUtil.click(PageLogin.LOGIN_CLICK_LOGIN);
     }
     /*重构登录方法*/
     public static void login(SeleniumUtil seleniumUtil,String username,String password){
@@ -28,8 +28,9 @@ public class HelperLoginPage {
         clickButton(seleniumUtil);
     }
     /*退出登录*/
-    public static void logOut(SeleniumUtil seleniumUtil){
-        seleniumUtil.click(PageLogin.LOGOUT_LINK_LOGIN);
+    public static void logout(SeleniumUtil seleniumUtil){
+        seleniumUtil.waitForElementLoad(PageLogin.LOGIN_CLICK_LOGOUT);
+        seleniumUtil.click(PageLogin.LOGIN_CLICK_LOGOUT);
     }
 
 

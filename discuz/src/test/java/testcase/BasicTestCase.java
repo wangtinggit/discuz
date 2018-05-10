@@ -1,9 +1,8 @@
 package testcase;
 
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import util.ReadBrowser;
 import util.LogConfiguration;
+import util.ReadConfigFile;
 import util.SeleniumUtil;
 
 import java.io.IOException;
@@ -18,10 +17,8 @@ public class BasicTestCase {
     public void initTestCase() throws IOException {
         LogConfiguration.initLog();
         seleniumUtil = new SeleniumUtil();
-//        ReadBrowser browser = new ReadBrowser();
-//        browser.initConf();
-        seleniumUtil.getDriver(ReadBrowser.driverName);
-        seleniumUtil.getUrl(ReadBrowser.URL);
+        seleniumUtil.getDriver(ReadConfigFile.driverName);
+        seleniumUtil.getUrl(ReadConfigFile.URL);
     }
     /*@AfterMethod
     public void clearTestCase() {

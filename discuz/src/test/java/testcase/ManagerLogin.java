@@ -1,5 +1,7 @@
 package testcase;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import pageHelper.HelperLoginPage;
 import pageHelper.HelperManagerLoginPage;
@@ -12,10 +14,11 @@ public class ManagerLogin extends BasicTestCase {
     @Test
     public void magLogin() throws InterruptedException {
         HelperLoginPage.login(seleniumUtil,"admin","password");
-        Thread.sleep(2000);
         HelperManagerLoginPage.clickManagerPlate(seleniumUtil);
-        Thread.sleep(2000);
         HelperManagerLoginPage.managerLogin(seleniumUtil,"password");
+        seleniumUtil.assertPage("Discuz! Board 管理中心 - 首页");
+
+
     }
 
 

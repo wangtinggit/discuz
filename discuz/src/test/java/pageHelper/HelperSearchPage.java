@@ -10,15 +10,17 @@ public class HelperSearchPage {
 
     /*输入搜索内容*/
     public static void inputSearch(SeleniumUtil seleniumUtil,String searchContent){
-        seleniumUtil.sendKeys(PageSearchPlate.SEARCH_PLATE_CONTENT,searchContent);
+        seleniumUtil.sendKeys(PageSearchPlate.SEARCH_INPUT_CONTENT,searchContent);
     }
     /*点击搜索按钮*/
     public static void clickSearch(SeleniumUtil seleniumUtil){
+        seleniumUtil.waitForElementLoad(PageSearchPlate.SEARCH_PLATE_CLICK);
         seleniumUtil.click(PageSearchPlate.SEARCH_PLATE_CLICK);
     }
     /*进入帖子*/
     public static void clickSearchPlate(SeleniumUtil seleniumUtil){
-        seleniumUtil.click(PageSearchPlate.SEARCH_PLATE_INPUT);
+        seleniumUtil.waitForElementLoad(PageSearchPlate.SEARCH_LINK_POST);
+        seleniumUtil.click(PageSearchPlate.SEARCH_LINK_POST);
     }
     /**/
     /*重构搜索方法*/
