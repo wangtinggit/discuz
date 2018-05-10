@@ -11,7 +11,7 @@ public class PagePlate {
     /*点击新版块*/
     public static final By NEW_LINK_PLATE = By.linkText("新版块名称");
     /*输入发帖标题*/
-    public static final By PUBLISH_INPUT_TITLE = By.id("subject");
+    public static final By PUBLISH_INPUT_TITLE = By.xpath("//*[@id=\"subject\"]");
     /*输入发帖内容*/
     public static final By PUBLISH_INPUT_CONTENT = By.id("fastpostmessage");
     /*点击发表帖子*/

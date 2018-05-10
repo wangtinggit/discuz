@@ -4,15 +4,13 @@
         <classes>
             <class name="testcase.LoginPage" />
             <class name="testcase.LoginSubmit" />
-           
-<!--		   <class name="testcase.LoginReply" />
+            <class name="testcase.LoginReply" />
             <class name="testcase.LoginSubRep" />
             <class name="testcase.LoginDeletePost" />
             <class name="testcase.ManagerAddPlate" />
             <class name="testcase.CommonSubmit" />
             <class name="testcase.SearchPlate" />
             <class name="testcase.SubmitTopic" />
--->
         </classes>
     </test>
 

@@ -12,8 +12,11 @@ public class LoginSubmit extends BasicTestCase {
     @Test
     public void loginSubmit() throws InterruptedException {
         HelperLoginPage.login(seleniumUtil,"admin","password");
+        Thread.sleep(3000);
         HelperPlatePage.clickPlate(seleniumUtil);
+        Thread.sleep(3000);
         HelperPlatePage.publishPost(seleniumUtil,"abc","abc");
         HelperLoginPage.logout(seleniumUtil);
+        Thread.sleep(3000);
     }
 }
