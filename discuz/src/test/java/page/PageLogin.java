@@ -14,6 +14,6 @@ public class PageLogin {
     /*点击登录*/
     public static final By LOGIN_CLICK_LOGIN= By.xpath("//*[@id=\"lsform\"]/div/div/table/tbody/tr[2]/td[3]/button");
     /*退出登录*/
-    public static final By LOGIN_CLICK_LOGOUT= By.xpath("//*[@id=\"frameuinfo\"]/p[1]/a");
+    public static final By LOGIN_CLICK_LOGOUT= By.xpath("//*[@id=\"um\"]/p[1]/a[7]");
 
 }

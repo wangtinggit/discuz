@@ -11,14 +11,17 @@ public class HelperLoginPage {
 
     /*输入用户名*/
     public static void inputUserName(SeleniumUtil seleniumUtil,String username){
+        seleniumUtil.waitForElementLoad(PageLogin.LOGIN_INPUT_USERNAME);
         seleniumUtil.sendKeys(PageLogin.LOGIN_INPUT_USERNAME,username);
     }
     /*输入密码*/
     public static void inputPassword(SeleniumUtil seleniumUtil,String password){
+        seleniumUtil.waitForElementLoad(PageLogin.LOGIN_INPUT_PASSWORD);
         seleniumUtil.sendKeys(PageLogin.LOGIN_INPUT_PASSWORD,password);
     }
     /*点击登录按钮*/
     public static void clickButton(SeleniumUtil seleniumUtil){
+        seleniumUtil.waitForElementLoad(PageLogin.LOGIN_CLICK_LOGIN);
         seleniumUtil.click(PageLogin.LOGIN_CLICK_LOGIN);
     }
     /*重构登录方法*/
