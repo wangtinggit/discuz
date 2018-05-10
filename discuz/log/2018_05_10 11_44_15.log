@@ -1,0 +1,12 @@
+[2018-05-10 11:44:50] [INFO] 启动chrome浏览器
+[2018-05-10 11:45:02] [INFO] 打开网址：http://127.0.0.1:8086/discuz/
+[2018-05-10 11:45:03] [INFO] 成功获取元素的定位值 xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a
+[2018-05-10 11:45:03] [INFO] 找到相对元素： xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a
+[2018-05-10 11:45:05] [INFO] 成功获取元素的定位值 xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a
+[2018-05-10 11:45:05] [INFO] 对元素： xpath: //*[@id="category_1"]/table/tbody/tr[1]/td[2]/h2/a做点击操作
+[2018-05-10 11:45:06] [INFO] 找到了元素 [By.xpath: //*[@id="newspecial"]/img]
+[2018-05-10 11:45:06] [INFO] 成功获取元素的定位值 xpath: //*[@id="newspecial"]/img
+[2018-05-10 11:45:06] [INFO] 找到相对元素： xpath: //*[@id="newspecial"]/img
+[2018-05-10 11:45:07] [INFO] 成功获取元素的定位值 xpath: //*[@id="newspecial"]/img
+[2018-05-10 11:45:07] [INFO] 对元素： xpath: //*[@id="newspecial"]/img做点击操作
+[2018-05-10 11:45:17] [ERROR] 超时!! 10 秒之后还没找到元素 [By.linkText: 发起投票]
