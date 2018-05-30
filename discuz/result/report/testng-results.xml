@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DiscuzWhiteTest" duration-ms="31951" started-at="2018-05-30T08:42:34Z" finished-at="2018-05-30T08:43:06Z">
+    <groups>
+    </groups>
+    <test name="froum" duration-ms="31951" started-at="2018-05-30T08:42:34Z" finished-at="2018-05-30T08:43:06Z">
+      <class name="testcase.LoginPage">
+        <test-method status="PASS" signature="initTestCase()[pri:0, instance:testcase.LoginPage@5f2050f6]" name="initTestCase" is-config="true" duration-ms="25640" started-at="2018-05-30T16:42:34Z" finished-at="2018-05-30T16:42:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTestCase -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testcase.LoginPage@5f2050f6]" name="login" duration-ms="6228" started-at="2018-05-30T16:42:59Z" finished-at="2018-05-30T16:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testcase.LoginPage -->
+    </test> <!-- froum -->
+  </suite> <!-- DiscuzWhiteTest -->
+</testng-results>

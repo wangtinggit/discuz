@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 public class PageLogin {
 
     /*输入用户名*/
-    public static final By LOGIN_INPUT_USERNAME = By.id("ls_uskername");
+    public static final By LOGIN_INPUT_USERNAME = By.id("ls_username");
     /*输入密码*/
     public static final By LOGIN_INPUT_PASSWORD = By.id("ls_password");
     /*点击登录*/
