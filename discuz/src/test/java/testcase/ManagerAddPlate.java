@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import pageHelper.HelperAddPlatePage;
 import pageHelper.HelperLoginPage;
 import pageHelper.HelperManagerLoginPage;
+import pageHelper.HelperPlatePage;
 
 /**
  * Created by PC on 2018/5/8.

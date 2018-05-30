@@ -10,7 +10,7 @@ public class HelperAddPlatePage {
     /*点击论坛*/
     public static void clickForum(SeleniumUtil seleniumUtil){
         seleniumUtil.waitForElementLoad(PageManage.MANAGE_CLICK_FORUM);
-       seleniumUtil.click(PageManage.MANAGE_CLICK_FORUM);
+        seleniumUtil.click(PageManage.MANAGE_CLICK_FORUM);
     }
     /*点击创建新版块*/
     public static void addNewPlate(SeleniumUtil seleniumUtil){
